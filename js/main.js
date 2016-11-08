@@ -1,4 +1,7 @@
 //variable that controls the background color
+var background = "red";
+
+document.getElementById("body").style.background = background;
 
 //a click box that controls the background color variable
 
