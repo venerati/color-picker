@@ -1,11 +1,26 @@
+body {
+	text-align: center;
+}
+
 #body {
 	margin-top: 20%;
-	margin-left: 20%;
-	width: 300px;
 	height: 300px;
 }
 
-#button1 {
-	margin-left: 21%;
+.buttonRow {
+	text-align: center;
 	margin-top: 20px;
+}
+
+#button1 {
+
+	}
+
+.inputRow {
+	margin-top: 20px;
+}
+
+#x {
+	height: 35px;
+	font-size: 20px;
 }
