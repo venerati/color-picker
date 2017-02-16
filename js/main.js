@@ -23,14 +23,11 @@ document.getElementById("button3").onclick = function buttonOne()
 	document.getElementById("body").style.background = 'red';
 };
 
-	//by pressing enter a text value will be placed in the background variable
-		//pull the value from the text field and bind it to a variable
-
-
-
+	
 		//by clicking the submit button you will inject the variable's value into the box
 		document.getElementById("colorSubmit").onclick = function ()
 		{
+			//pull the value from the text field and bind it to a variable
 			var textColor = document.getElementById("x").value;
 			document.getElementById("body").style.background = textColor;
 		}
